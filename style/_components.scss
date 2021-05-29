@@ -118,3 +118,25 @@ main {
   font-family: inherit;
   font-weight: 300;
 }
+.cart {
+  width: 13rem;
+  height: 7vh;
+  background-color: #b6cb3c;
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 87%;
+  left: 40%;
+  cursor: pointer;
+  &__icon {
+    width: 3rem;
+    height: auto;
+    margin-right: 1.2rem;
+  }
+  &__descrip {
+    font-weight: 400;
+  }
+}

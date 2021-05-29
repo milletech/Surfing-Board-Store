@@ -158,4 +158,33 @@ main {
   font-family: inherit;
   font-weight: 300;
 }
+
+.cart {
+  width: 13rem;
+  height: 7vh;
+  background-color: #b6cb3c;
+  border-radius: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 87%;
+  left: 40%;
+  cursor: pointer;
+}
+
+.cart__icon {
+  width: 3rem;
+  height: auto;
+  margin-right: 1.2rem;
+}
+
+.cart__descrip {
+  font-weight: 400;
+}
 /*# sourceMappingURL=main.css.map */
